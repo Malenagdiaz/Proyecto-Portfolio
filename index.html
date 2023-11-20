@@ -141,14 +141,14 @@
         <!-- Final de MIS PROYECTOS -->
 
         <!-- Inicialización de CONTACTO -->
-        <section>
+        <section class="seccion-contacto" id="Contacto">
             <div>
-                <div>
+                <div class="contacto-container">
                     <h2>Contactame</h2>
                     <p>¡Gracias por revisar mi perfil! Si tenes alguna pregunta, sugerencia o compartir ides, no dudes
                         en ponerte en contacto conmigo.</p>
                 </div>
-                <ul>
+                <ul class="redes-sociales">
                     <li>
                         <a href="https://www.instagram.com/itsmalediaz">
                             <i class="fa-brands fa-instagram"></i>
@@ -172,6 +172,32 @@
                     </li>
                 </ul>
             </div>
+        </section>
+        <section class="seccion-contacto">
+            <h2>Chatea conmigo</h2>
+            <form action="https://submit-form.com/PBWaqQJQH" method="post" class="formulario-contacto">
+                <div>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre" class="input-nombre" placeholder="Tu nombre ej: Malena" required>
+                </div>
+
+                <div>
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" id="Apellido" class="input-apellido" placeholder="Tu apellido ej: Diaz" required>
+                </div>
+
+                <div>
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" name="correo" class="input-email" placeholder="Ej: nombre@gmail.com" required>
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensajes" id="mensajes" class="textarea-mensaje" cols="30" rows="10" placeholder="Deje su mensaje aquí" required></textarea>
+                </div>
+
+                <button type="submit" class="Enviar">Enviar</button>
+            </form>
         </section>
         <!-- Fin de CONTACTO -->
 
