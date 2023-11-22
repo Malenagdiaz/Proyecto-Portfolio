@@ -1,5 +1,56 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Estilo para el encabezado */
+header{
+   background-color: #952f57;
+   display: flex;
+   justify-content: end;
+   height: 10vh;
+   width: auto;
+}
+
+
+.barra-navegacion{
+    display: flex;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+
+.lista-navegacion{
+    display: flex;
+    align-items: center;
+}
+
+.lista-navegacion a{
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #eebbbb;
+}
+
+.lista-navegacion a:hover{
+    color: #62152d;
+}
+
+.nav-contacto{
+    color: aqua;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #ca668b;
+    color: #ca668b; 
+    border-radius: 25px; 
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.nav-contacto:hover {
+    background-color: #ff9ec2; 
 }
