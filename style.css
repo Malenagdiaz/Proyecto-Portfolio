@@ -6,7 +6,7 @@
 
 /* Estilo para el encabezado */
 header {
-    background-color: #952f57;
+    background: url(Imagenes/53f0e71f528d032ca2e64b9e76037282.gif);
     display: flex;
     justify-content: end;
     width: 100%;
@@ -116,7 +116,6 @@ h1 {
 
 /* Estilos para MIS CONOCIMIENTOS */
 
-/* Estilos para la sección "Mis Conocimientos" */
 .container-conocimientos {
     width: 100%;
     height: auto;
