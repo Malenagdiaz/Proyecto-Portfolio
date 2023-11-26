@@ -5,52 +5,201 @@
 }
 
 /* Estilo para el encabezado */
-header{
-   background-color: #952f57;
-   display: flex;
-   justify-content: end;
-   height: 10vh;
-   width: auto;
+header {
+    background-color: #952f57;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding: 30px 0px;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 
-.barra-navegacion{
+.barra-navegacion {
     display: flex;
 }
 
-ul li{
+ul li {
     display: inline-block;
     list-style: none;
     padding: 0 20px;
 }
 
-.lista-navegacion{
+.lista-navegacion {
     display: flex;
     align-items: center;
 }
 
-.lista-navegacion a{
+.lista-navegacion a {
     margin: 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: none;
     color: #eebbbb;
 }
 
-.lista-navegacion a:hover{
+.lista-navegacion a:hover {
     color: #62152d;
 }
 
-.nav-contacto{
-    color: aqua;
+.nav-contacto {
+    color: rgb(231, 154, 218);
     padding: 10px 20px;
     text-decoration: none;
     background-color: #ca668b;
-    color: #ca668b; 
-    border-radius: 25px; 
+    color: #ca668b;
+    border-radius: 25px;
     transition: background-color 0.3s ease;
-    cursor: pointer;
 }
 
 .nav-contacto:hover {
-    background-color: #ff9ec2; 
+    background-color: #ff9ec2;
+}
+
+/* Estilo para la SECCIÓN SOBRE MI */
+
+.sobre-mi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 50px 150px;
+}
+
+.informacion-personal {
+    font-size: 1.563rem;
+}
+
+.sobre-mi img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.saludo-sobre-mi {
+    font-size: 1.875rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 3.75rem;
+    color: #62152d;
+}
+
+.descripcion-sobre-mi {
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.563;
+    color: black;
+}
+
+.boton-proyectos {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 1.25rem;
+    color: #62152d;
+    background-color: #ca668b;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.boton-proyectos:hover {
+    background-color: #ff9ec2;
+}
+
+/* Estilos para MIS CONOCIMIENTOS */
+
+/* Estilos para la sección "Mis Conocimientos" */
+.container-conocimientos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mis-conocimientos {
+    height: 100%;
+    text-align: center;
+    background: url(Imagenes/f878d2979846729ce5831621cbacd1c7.jpg);
+    padding: 80px 80px 80px;
+}
+
+
+.mis-conocimientos h2 {
+    background: linear-gradient(to right, #952f57, #62152d, #ca668b);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 2.25rem;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.conocimientos {
+    display: flex;
+    justify-content: center;
+}
+
+.container-mis-conocimientos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.container-iconos {
+    width: 250px;
+    height: 250px;
+    border: 1px solid rgb(226, 151, 205);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(Imagenes/55178de7136cb5d0e266000ec7627ac5.gif);
+}
+
+
+.container-iconos i {
+    font-size: 4.063rem;
+}
+
+.container-iconos p {
+    margin-top: 25px;
+    font-size: 1.563rem;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.fa-html5 {
+    color: #E34F26;
+}
+
+.fa-css3-alt {
+    color: #33AABB;
+}
+
+.fa-js {
+    color: #F7DF1E;
+}
+
+.fa-sass {
+    color: #CC6699;
+}
+
+.fa-react {
+    color: #61DAFB;
+}
+
+.fa-git-alt {
+    color: #e67541;
 }
