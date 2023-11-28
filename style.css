@@ -206,7 +206,7 @@ h1 {
 
 /* SECCION QUOTE */
 
-.cita{
+.cita {
     height: 100vh;
     padding: 0 100px;
     display: flex;
@@ -217,17 +217,17 @@ h1 {
     background-size: cover;
 }
 
-.fa-quote-right{
+.fa-quote-right {
     font-size: 9rem;
 }
 
-blockquote{
+blockquote {
     text-align: center;
     font-size: 1.875rem;
     font-family: 'Shadows Into Light Two', cursive;
 }
 
-.Dios{
+.Dios {
     font-style: italic;
     font-size: 3.125rem;
     font-family: 'BioRhyme', serif;
@@ -235,7 +235,7 @@ blockquote{
 
 /* Estilos para MIS PROYECTOS */
 
-.mis-proyectos{
+.mis-proyectos {
     padding: 100px 20px 0;
     display: flex;
     flex-direction: column;
@@ -244,11 +244,11 @@ blockquote{
     background-color: #ffe4ec;
 }
 
-.presentacion-proyectos{
+.presentacion-proyectos {
     text-align: center;
 }
 
-.presentacion-proyectos h2{
+.presentacion-proyectos h2 {
     font-size: 2.25rem;
     font-family: 'Poiret One', sans-serif;
     background: linear-gradient(to right, #e5097f, #ca668b);
@@ -257,7 +257,7 @@ blockquote{
     display: inline-block;
 }
 
-.descripcion-proyectos{
+.descripcion-proyectos {
     font-style: italic;
     font-size: 1.5rem;
     font-family: 'Nunito', sans-serif;
@@ -265,14 +265,14 @@ blockquote{
 }
 
 
-.proyectos-container{
+.proyectos-container {
     margin: 70px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
-.container-mis-proyectos{
+.container-mis-proyectos {
     width: 340px;
     height: 340px;
     border: 1px solid rgb(221, 151, 203);
@@ -287,7 +287,7 @@ blockquote{
     background-size: contain;
 }
 
-.proyectos-container a{
+.proyectos-container a {
     text-align: center;
     text-decoration: none;
     color: #62152d;
@@ -295,12 +295,12 @@ blockquote{
     gap: 20px;
 }
 
-.proyectos-container p{
+.proyectos-container p {
     display: flex;
     align-items: center;
 }
 
-.proyectos-container img{
+.proyectos-container img {
     max-width: 100%;
     height: 65%;
     margin-right: 10px;
@@ -308,19 +308,155 @@ blockquote{
     background-color: transparent;
 }
 
+/* Estilos para CONTACTO */
+
+.seccion-contacto {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-image: url(Imagenes/3644f9ec6f97face5dfc5104912cdc60.jpg);
+}
+
+.contenedor-del-contacto {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(255, 191, 221);
+    border-radius: 20px;
+    width: 90%;
+    padding: 50px;
+    background: url(Imagenes/4f0a4cd7babfc4df18cb8d5b437e2d10.gif) center;
+    background-size: cover;
+}
 
 
+.contacto-columna {
+    width: 50%;
+    margin-right: 25px;
+}
+
+.contactame {
+    color: #62152d;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+p {
+    font-style: italic;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.redes-sociales {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-sociales li {
+    margin: 10px;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #ca668b;
+}
+
+.redes-sociales i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #ca668b;
+}
+
+.contacto-iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-right: 10px;
+    text-align: center;
+    transition: 0.2s;
+
+}
 
 
+.contacto-link {
+    display: flex;
+    align-items: center;
+}
 
 
+.contacto-link:hover .contacto-iconos {
+    background-color: #ba7b7c;
+    color: #62152d;
+}
 
+.contacto-link:hover{
+    color: #62152d;
+}
 
+/* FORMULARIO */
 
+.seccion-del-formulario {
+    width: 50%;
+}
 
+.chatea-conmigo {
+    color: #62152d;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
 
+.formulario-contacto label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #c1215b;
+}
 
+.formulario-contacto input {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #f499be;
+    border-radius: 16px;
+}
 
+.input-nombre-apellido {
+    display: flex;
+    justify-content: space-between;
+}
 
+.formulario-contacto input:valid {
+    border-color: #5ccb5f;
+}
 
+.formulario-contacto input:invalid:not(:placeholder-shown) {
+    border-color: #f50400;
+}
 
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #f499be;
+    border-radius: 16px;
+}
+
+.Enviar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eebbbb;
+    background-color: #ca668b;
+    padding: 8px 15px;
+    border: 1px solid #CC6699;
+    border-radius: 20px;
+}
+
+.Enviar:hover {
+    background-color: #e285a2;
+}
