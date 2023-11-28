@@ -427,6 +427,7 @@ p {
     padding: 9px;
     border: 1px solid #f499be;
     border-radius: 16px;
+    box-shadow: 0px 2px 4px rgb(226, 135, 199);
 }
 
 .input-nombre-apellido {
@@ -448,6 +449,7 @@ p {
     margin-bottom: 5px;
     border: 1px solid #f499be;
     border-radius: 16px;
+    box-shadow: 0px 2px 4px rgb(226, 135, 199);
 }
 
 .Enviar {
@@ -457,10 +459,13 @@ p {
     padding: 8px 15px;
     border: 1px solid #CC6699;
     border-radius: 20px;
+    box-shadow: 0px 2px 4px rgb(226, 135, 199);
+    transition: transform 0.2s ease;
 }
 
 .Enviar:hover {
     background-color: #e285a2;
+    transform: scale(0.95);
 }
 
 /* Estilos para el FOOTER */
