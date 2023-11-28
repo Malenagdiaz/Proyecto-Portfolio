@@ -461,3 +461,105 @@ p {
 .Enviar:hover {
     background-color: #e285a2;
 }
+
+/* Estilos para el FOOTER */
+
+.pie-de-pagina{
+    padding: 30px 10px 30px;
+    text-align: center;
+    background: url(Imagenes/ac3f59ad523b5dc984e9b9c21374253c.gif);
+}
+
+.navegacion-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.enlaces-seccion{
+    margin-block: 10px;
+}
+
+.redes{
+    margin-top: 20px;
+}
+
+.seccion-link a{
+    text-decoration: none;
+    color: #ba7b7c;
+}
+
+.seccion-link:hover a{
+    color: #62152d;
+}
+
+.icono-red a{
+    display: inline-block;
+    font-size: 1.563rem;
+    text-decoration: none;
+}
+
+.fa-brands, .fa-solid{
+    color: #ba7b7c;
+}
+
+.icono-footer{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #d7a9a9;
+    color: #ba7b7c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono-footer:hover{
+    background-color: #62152d;
+    color: #e285a2;
+}
+
+.mi-firma{
+    margin-top: 25px;
+    font-family: 'Cedarville Cursive', cursive;
+    color: #ba7b7c;
+    font-size: 1.5rem;
+    font-style: normal;
+    text-shadow: 3px 2px 5px rgba(205, 25, 115, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
