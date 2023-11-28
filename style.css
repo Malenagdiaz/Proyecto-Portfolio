@@ -95,7 +95,7 @@ h1 {
 .descripcion-sobre-mi {
     font-weight: bolder;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.563;
+    font-size: 1.563rem;
     color: black;
 }
 
@@ -534,8 +534,6 @@ p {
     font-style: normal;
     text-shadow: 3px 2px 5px rgba(205, 25, 115, 0.8);
 }
-
-
 
 
 
