@@ -241,7 +241,8 @@ blockquote {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffe4ec;
+    background-image: url(Imagenes/5ceb42853b2face7874489a36a752983.jpg);
+    background-size: contain;
 }
 
 .presentacion-proyectos {
@@ -397,7 +398,7 @@ p {
     color: #62152d;
 }
 
-.contacto-link:hover{
+.contacto-link:hover {
     color: #62152d;
 }
 
