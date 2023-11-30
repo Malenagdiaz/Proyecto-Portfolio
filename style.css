@@ -316,7 +316,6 @@ blockquote {
 /* Estilos para CONTACTO */
 
 .seccion-contacto {
-    height: 120vh;
     display: flex;
     justify-content: center;
     padding: 100px;
@@ -473,43 +472,43 @@ p {
 
 /* Estilos para el FOOTER */
 
-.pie-de-pagina{
+.pie-de-pagina {
     padding: 30px 10px 30px;
     text-align: center;
     background: url(Imagenes/ac3f59ad523b5dc984e9b9c21374253c.gif);
 }
 
-.navegacion-footer{
+.navegacion-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
 }
 
-.enlaces-seccion{
+.enlaces-seccion {
     margin-block: 10px;
 }
 
-.redes{
+.redes {
     margin-top: 20px;
 }
 
-.seccion-link a{
+.seccion-link a {
     text-decoration: none;
     color: #ba7b7c;
 }
 
-.seccion-link:hover a{
+.seccion-link:hover a {
     color: #62152d;
 }
 
-.icono-red a{
+.icono-red a {
     display: inline-block;
     font-size: 1.563rem;
     text-decoration: none;
 }
 
-.icono-footer{
+.icono-footer {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -520,49 +519,18 @@ p {
     justify-content: center;
 }
 
-.icono-footer:hover{
+.icono-footer:hover {
     background-color: #62152d;
     color: #e285a2;
 }
 
-.mi-firma{
-    margin-top: 25px;
+.mi-firma {
+    margin-top: 20px;
     font-family: 'Cedarville Cursive', cursive;
     color: #ba7b7c;
     font-size: 1.5rem;
     font-style: normal;
     text-shadow: 3px 2px 5px rgba(205, 25, 115, 0.8);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
