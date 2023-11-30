@@ -533,4 +533,176 @@ p {
     text-shadow: 3px 2px 5px rgba(205, 25, 115, 0.8);
 }
 
+/* Comienzo de mi DISEÑO RESPONSIVO */
 
+@media (max-width: 980px) {
+
+    /* SECCION HEADER */
+
+    header{
+        display: none;
+    }
+
+    /* SECCION SOBRE MI */
+
+    .sobre-mi {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .saludo-sobre-mi {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sobre-mi img {
+        width: 100%;
+    }
+
+    /* SECCION MIS CONOCIMIENTOS */
+
+    .mis-conocimientos {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-mis-conocimientos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-iconos {
+        width: 150px;
+        height: 150px;
+        border: 1px solid pink;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: url(Imagenes/55178de7136cb5d0e266000ec7627ac5.gif);
+        background-size: contain;
+    }
+
+    .container-iconos i {
+        font-size: 3rem;
+    }
+
+    .container-iconos p {
+        margin-top: 25px;
+        font-size: 1.2rem;
+        font-family: 'Playpen Sans', cursive;
+    }
+
+    .fa-html5 {
+        color: #E34F26;
+    }
+
+    .fa-css3-alt {
+        color: #33AABB;
+    }
+
+    .fa-sass {
+        color: #CC6699;
+    }
+
+    .fa-react {
+        color: #61DAFB;
+    }
+
+    .fa-git-alt {
+        color: #e67541;
+    }
+
+    /* QUOTE */
+
+    .cita {
+        padding: 0 10px;
+    }
+
+    .fa-quote-right {
+        font-size: 3rem;
+    }
+
+    blockquote {
+        font-size: 1.25rem;
+    }
+
+    .Dios {
+        font-size: 1.5rem;
+    }
+
+    /* SECCION MIS PROYECTOS */
+
+    .mis-proyectos {
+        background-image: url(Imagenes/5ceb42853b2face7874489a36a752983.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .proyectos-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* SECCION CONTACTO */
+
+    .seccion-contacto {
+        padding: 20px 10px;
+    }
+
+    .contenedor-del-contacto {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .contacto-columna {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .seccion-del-formulario {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contactame {
+        color: #62152d;
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-style: italic;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.125rem;
+    }
+
+    /* SECCION FOOTER */
+
+    .navegacion-footer {
+        flex-direction: column;
+    }
+
+    .enlaces-seccion li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .mi-firma {
+        font-size: 1.2rem;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+}
