@@ -1,5 +1,5 @@
 # Proyecto-Portfolio
-¡Bienvenidos a mi primer proyecto desarrollado en ADA! Estoy emocionada de poder prensetar mi primer portfolio. Este proyecyo respresenta el aprendizaje, y sobre todo, desafíos superados. ¡Te invito a explorar mi trabajo!
+¡Bienvenidos a mi primer proyecto desarrollado en ADA! Estoy emocionada de poder prensetar mi primer portfolio. Este proyecto respresenta el aprendizaje, y sobre todo, desafíos superados. ¡Te invito a explorar mi trabajo!
 
 ## Mi proyecto cuenta con
 Este es el Inicio de mi página, donde tiene un navbar que te permite desplazarte con tan solo tocar los link de navegacion. ¡Puedes navegar sin mucho esfuerzo!. Y por debajo hay una pequeña presentación mía que cuenta tambien con un botón que te llevará a una sección, en este caso, mis proyectos.
