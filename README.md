@@ -18,7 +18,7 @@ Esta es la presentación de mis proyectos que fueron desarrollados con mucho per
 ![Mis Proyectos](Imagenes/mis-proyectos-imagen-3.png)
 
 En esta sección podrás ver la parte de contacto, donde pueden escribirme para contactarse conmigo, es una sección que me gusta bastante por los detalles. 
-![Contacto](Imagenes/contacto-imagen.png)
+![Contacto](Imagenes/quote-imagen.png)
 
 Por último, este es el footer, aquí tambien podrás clikear y que te lleve a la sección correspondiente, tambien cuenta con mis redes sociales para que también puedan contactarse conmigo.
 ![Footer](Imagenes/footer-imagen.png)
