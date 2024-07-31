@@ -3,303 +3,200 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BioRhyme&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kodchasan&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4a256f10f3.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="Imagenes/9fa2c572f069ccb8b9ae88f0dd5ce806.png">
-    <link rel="stylesheet" href="style.css">
-    <title>Mi Portfolio</title>
+    <title>Portfolio - Malena</title>
 </head>
 
 <body>
-    <!-- Principio del HEADER -->
+
+    <!-- ✮⋆˙ HEADER ✮⋆˙ -->
     <header>
-        <!-- Menú de navegación -->
-        <nav class="barra-navegacion">
-            <ul class="lista-navegacion">
-                <li class="elemento-navegacion">
-                    <a href="#Hola">HOLA</a>
-                </li>
-                <li class="elemento-navegacion">
-                    <a href="#Conocimientos">CONOCIMIENTOS</a>
-                </li>
-                <li class="elemento-navegacion">
-                    <a href="#Proyectos">PROYECTOS</a>
-                </li>
-                <li class="elemento-navegacion">
-                    <a href="#Contacto" class=" nav-contacto">CONTACTO</a>
-                </li>
+        <nav class="navbar">
+            <ul class="lista-nav">
+                <li><a href="#Hola">Hola</a></li>
+                <li><a href="#Conocimientos">Conocimientos</a></li>
+                <li><a href="#Proyectos">Proyectos</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
             </ul>
         </nav>
-        <!-- Menú de navecación finalizado -->
     </header>
-    <!-- Finalización del HEADER -->
 
-    <!-- Apertura del MAIN -->
+    <!-- ✮⋆˙ MAIN ✮⋆˙ -->
     <main>
-        <!-- Comienzo de la sección SOBRE MI -->
-        <section class="sobre-mi" id="Hola">
-            <div class="informacion-personal">
-                <p class="saludo-sobre-mi">¡Hola! soy</p>
-                <h1>Malena Gerez Diaz</h1>
-                <p class="descripcion-sobre-mi">Futura desarrolladora WEB e Ingeniera en informática. Soy amante de la
-                    tecnología y del fútbol.</p>
-                <a href="#Proyectos" class="boton-proyectos">LO QUE HAGO</a>
+
+        <!-- ✮⋆˙ SECCION HOLA ✮⋆˙ -->
+        <section id="Hola">
+            <div class="contenedor-intro">
+                <div class="intro">
+                    <p class="saludo">Hola! soy</p>
+                    <h1><span>M</span>alena <span>G</span>erez <span>D</span>iaz</h1>
+                    <p class="descripcion">Desarrolladora Web, apasionada por la tecnología y amante del fútbol.</p>
+                    <a href="#Proyectos">Lo que hago</a>
+                </div>
             </div>
-            <div>
-                <img src="./Imagenes/imagen-de-perfil.png" alt="Imagen de perfil">
+            <div class="contenedor-avatar">
+                <img src="./assets/Mi-avatar.jpg" alt="Mi avatar" class="avatar">
             </div>
         </section>
-        <!-- Finalización de la sección SOBRE MI -->
 
-        <!-- Principio de MIS CONOCIMIENTOS -->
-        <section class="mis-conocimientos" id="Conocimientos">
-            <h2>Mis Conocimientos</h2>
+        <!-- ✮⋆˙ SECCION CONOCIMIENTOS ✮⋆˙ -->
+        <section id="Conocimientos">
+            <h2><span><i class="fa-solid fa-laptop-code"></i></span>Mis conocimientos</h2>
             <div class="container-conocimientos">
-                <div class="container-mis-conocimientos">
-                    <div class="container-iconos">
-                        <i class="fa-brands fa-html5"></i>
-                        <p>HTML</p>
-                    </div>
-                    <div class="container-iconos">
-                        <i class="fa-brands fa-css3-alt"></i>
-                        <p>CSS</p>
-                    </div>
-                    <div class="container-iconos">
-                        <i class="fa-brands fa-js"></i>
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="container-iconos">
-                        <i class="fa-brands fa-sass"></i>
-                        <p>Sass</p>
-                    </div>
-                    <div class="container-iconos">
-                        <i class="fa-brands fa-react"></i>
-                        <p>React</p>
-                    </div>
-                    <div class="container-iconos">
-                        <i class="fa-brands fa-git-alt"></i>
-                        <p>GIT</p>
-                    </div>
+                <div class="conocimientos">
+                    <i class=" fa-brands fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <div class="conocimientos">
+                    <i class=" fa-brands fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+                <div class="conocimientos">
+                    <i class=" fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="conocimientos">
+                    <i class=" fa-brands fa-sass"></i>
+                    <span>Sass</span>
+                </div>
+                <div class="conocimientos">
+                    <i class=" fa-brands fa-react"></i>
+                    <span>React</span>
+                </div>
+                <div class="conocimientos">
+                    <i class=" fa-brands fa-git-alt"></i>
+                    <span>GIT</span>
                 </div>
             </div>
         </section>
-        <!-- Finalización de MIS CONOCIMIENTOS -->
 
-        <!-- QUOTE -->
+        <!-- ✮⋆˙ QUOTE ✮⋆˙ -->
         <section class="cita">
-            <div class="icono-quote">
-                <i class="fa-solid fa-quote-right"></i>
-            </div>
-            <blockquote>
-                <p>A veces, la vida puede parecer complicada y llena de obstáculos, pero en cada uno de esos momentos,
-                    estoy contigo.</p>
-            </blockquote>
-            <h2 class="Dios">Dios</h2>
-        </section>
-        <!-- Fin del QUOTE -->
-
-        <!-- Inicialización de MIS PROYECTOS -->
-        <section class="mis-proyectos" id="Proyectos">
-            <div class="presentacion-proyectos">
-                <h2>Mis Proyectos</h2>
-                <p class="descripcion-proyectos">Presentación de mis proyectos desarrollados, destacando esfuerzo y
-                    dedicación en cada una de ellas.
-                </p>
-            </div>
-            <div class="proyectos-container">
-                <a href="index.html" class="container-mis-proyectos" target="_blank">
-                    <img src="./Imagenes/portfolio.png" alt="Portfolio">
-                    <p>Portfolio</p>
-                </a>
-
-                <a href="#" class="container-mis-proyectos" target="_blank">
-                    <img src="./Imagenes/generador-de-memes.png" alt="Generador de memes">
-                    <p>Generador de memes</p>
-                </a>
-
-                <a href="#" class="container-mis-proyectos" target="_blank">
-                    <img src="./Imagenes/match3.png" alt="Match 3">
-                    <p>Match 3</p>
-                </a>
-
-                <a href="#" class="container-mis-proyectos" target="_blank">
-                    <img src="./Imagenes/adminitrador-de-gastos.png" alt="Administrador de gastos">
-                    <p>Administrador de gastos</p>
-                </a>
-
-                <a href="#" class="container-mis-proyectos" target="_blank">
-                    <img src="./Imagenes/administrador-de-reuniones.png" alt="Administrador de reuniones">
-                    <p>Administrador de reuniones</p>
-                </a>
-
-                <a href="#" class="container-mis-proyectos" target="_blank">
-                    <img src="./Imagenes/todo-app.png" alt="Todo app">
-                    <p>Todo app</p>
-                </a>
-
-                <a href="#" class="container-mis-proyectos" target="_blank">
-                    <img src="./Imagenes/buscador-de-peliculas.png" alt="Buscador de películas">
-                    <p>Buscador de películas</p>
-                </a>
-            </div>
-        </section>
-        <!-- Final de MIS PROYECTOS -->
-
-        <!-- Inicialización de CONTACTO -->
-        <section class="seccion-contacto" id="Contacto">
-            <div class="contenedor-del-contacto">
-                <section class="contacto-columna">
-                    <div class="contacto-container">
-                        <h2 class="contactame">Contactame</h2>
-                        <p>¡Gracias por revisar mi perfil! Si tienes alguna pregunta, sugerencia o simplemente quieres
-                            compartir ideas conmigo, no dudes en ponerte en contacto.</p>
-                        <ul class="redes-sociales">
-                            <li>
-                                <a href="https://www.instagram.com/itsmalediaz" class="contacto-link"
-                                    aria-label="Instagram" target="_blank">
-                                    <i class="fa-brands fa-instagram contacto-iconos"></i>
-                                    @itsmalediaz
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/malena-gerez-diaz" class="contacto-link"
-                                    aria-label="Linkedin" target="_blank">
-                                    <i class="fa-brands fa-linkedin contacto-iconos"></i>
-                                    Malena Gerez Diaz
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/Malenagdiaz" class="contacto-link" aria-label="Github"
-                                    target="_blank">
-                                    <i class="fa-brands fa-github contacto-iconos"></i>
-                                    Malenagdiaz
-                                </a>
-                            </li>
-                            <li>
-                                <a href="mailto:mgerezdiaz@gmail.com" class="contacto-link" aria-label="mail"
-                                    target="_blank">
-                                    <i class="fa-solid fa-envelope contacto-iconos"></i>
-                                    mgerezdiaz@gmail.com
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="seccion-del-formulario">
-                    <h2 class="chatea-conmigo">Chatea conmigo</h2>
-                    <form action="https://submit-form.com/PBWaqQJQH" method="post" class="formulario-contacto">
-                        <div class="input-nombre-apellido">
-                            <div>
-                                <label for="Nombre">Nombre</label>
-                                <input type="text" id="Nombre" class="input-nombre" placeholder="Tu nombre ej: Malena"
-                                    required>
-                            </div>
-
-                            <div>
-                                <label for="Apellido">Apellido</label>
-                                <input type="text" id="Apellido" class="input-apellido"
-                                    placeholder="Tu apellido ej: Diaz" required>
-                            </div>
-                        </div>
-
-                        <div>
-                            <label for="correo">Correo electrónico</label>
-                            <input type="email" name="correo" class="input-email" placeholder="Ej: nombre@gmail.com"
-                                required>
-                        </div>
-
-                        <div>
-                            <label for="mensaje">Mensaje</label>
-                            <textarea name="mensajes" id="mensajes" class="textarea-mensaje" cols="30" rows="10"
-                                placeholder="Deje su mensaje aquí" required></textarea>
-                        </div>
-
-                        <button type="submit" class="Enviar">Enviar</button>
-                    </form>
-                </section>
+            <div class="contenedor-cita">
+                <span><i class="fa-solid fa-quote-right"></i></span>
+                <blockquote>
+                    <p>A veces, la vida puede parecer complicada y llena de obstáculos, pero en cada uno de esos
+                        momentos,
+                        estoy contigo.</p>
+                </blockquote>
+                <h2 class="autor">Dios</h2>
             </div>
         </section>
 
-        <!-- Fin de CONTACTO -->
+        <!-- ✮⋆˙ SECCION PROYECTOS ✮⋆˙ -->
+        <section id="Proyectos">
+            <h2><span><i class="fas fa-code"></i></span>Mis proyectos</h2>
+            <p class="descripcion-proyectos">Presentación de mis proyectos desarrollados, destacando esfuerzo y
+                dedicación en cada una de ellas.
+            </p>
+            <div class="contenedor-proyectos">
+                <div class="proyectos">
+                    <a href="https://malenagdiaz.github.io/Proyecto-Portfolio/" target="_blank">
+                        <img src="./assets/portfolio.png" alt="Mi portfolio">
+                        <p>Mi Portfolio</p>
+                    </a>
+                </div>
+                <div class="proyectos">
+                    <a href="https://malenagdiaz.github.io/EditorDeMemes-proyecto/">
+                        <img src="./assets/editor_de_memes.png" alt="Editor de memes">
+                        <p>Editor de memes</p>
+                    </a>
+                </div>
+                <div class="proyectos">
+                    <a href="https://malenagdiaz.github.io/Fulbo/">
+                        <img src="./assets/fulbo.png" alt="Fulbo">
+                        <p>Fulbo</p>
+                    </a>
+                </div>
+                <div class="proyectos">
+                    <a href="https://randomcardsplayer.netlify.app/">
+                        <img src="./assets/random_cards.png" alt="Random cards">
+                        <p>Random cards</p>
+                    </a>
+                </div>
+                <div class="proyectos">
+                    <a href="#enproceso">
+                        <img src="./assets/todolist.png" alt="Lluvia de tareas">
+                        <p>Lluvia de tareas</p>
+                    </a>
+                </div>
+                <div class="proyectos">
+                    <a href="#enproceso">
+                        <img src="./assets/ecommerce.png" alt="ecommerce">
+                        <p>Ecommerce</p>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-        <!-- Inicialización del FOOTER -->
-        <footer class="pie-de-pagina">
-            <!-- Navegación footer -->
-            <nav class="navegacion-footer">
-                <ul class="enlaces-seccion">
-                    <li class="seccion-link">
-                        <a href="#Hola">HOLA</a>
-                    </li>
-                    <li class="seccion-link">
-                        <a href="#Conocimientos">CONOCIMIENTOS</a>
-                    </li>
-                    <li class="seccion-link">
-                        <a href="#Proyectos">PROYECTOS</a>
-                    </li>
-                    <li class="seccion-link">
-                        <a href="#Contacto">CONTACTO</a>
-                    </li>
-                </ul>
-                <div>
+        <!-- ✮⋆˙ SECCION CONTACTO ✮⋆˙ -->
+        <section id="Contacto">
+            <div class="contenedor-contacto">
+                <div class="columna-contacto">
+                    <h2><span><i class="fa-solid fa-message"></i></span>Contactame</h2>
+                    <p>¡Gracias por revisar mi perfil! Si tienes alguna pregunta, sugerencia o simplemente quieres
+                        compartir ideas conmigo, no dudes en ponerte en contacto.</p>
                     <ul class="redes">
-                        <li class="icono-red">
-                            <a href="https://github.com/Malenagdiaz" target="_blank">
-                                <i class="fa-brands fa-github icono-footer"></i>
-                            </a>
+                        <li><a href="https://www.linkedin.com/in/malena-gerez-diaz/"><i
+                                    class="fa-brands fa-linkedin"></i>Malena Gerez Diaz</a>
                         </li>
-                        <li class="icono-red">
-                            <a href="https://www.linkedin.com/in/malena-gerez-diaz" target="_blank">
-                                <i class="fa-brands fa-linkedin icono-footer"></i>
-                            </a>
-                        </li>
-                        <li class="icono-red">
-                            <a href="https://www.instagram.com/itsmalediaz" target="_blank">
-                                <i class="fa-brands fa-instagram icono-footer"></i>
-                            </a>
-                        </li>
-                        <li class="icono-red">
-                            <a href="mailto:mgerezdiaz@gmail.com" target="_blank">
-                                <i class="fa-solid fa-envelope icono-footer"></i>
-                            </a>
-                        </li>
+                        <li><a href="mailto:mgerezdiaz@gmail.com"><i
+                                    class="fa-solid fa-envelope"></i>mgerezdiaz@gmail.com</a></li>
+                        <li><a href="https://github.com/Malenagdiaz"><i
+                                    class="fa-brands fa-github-alt"></i>Malenagdiaz</a></li>
                     </ul>
                 </div>
-                <div class="firma">
-                    <p class="mi-firma">Hecho con 🤍 por Malena</p>
+                <div class="columna-formulario">
+                    <h2><span><i class="fa-solid fa-envelope"></i></span>Chatea conmigo</h2>
+                    <form action="https://submit-form.com/PBWaqQJQH" method="post">
+                        <div class="nombre-apellido">
+                            <div>
+                                <label for="nombre">Nombre</label>
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                            </div>
+                            <div>
+                                <label for="apellido">Apellido</label>
+                                <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+                            </div>
+                        </div>
+                        <div class="contenedor-mail">
+                            <label for="email">Mail</label>
+                            <input type="email" name="email" id="email" placeholder="nombre@gmail.com">
+                        </div>
+                        <div>
+                            <label for="mansaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"
+                                placeholder="Deje su mansaje aquí"></textarea>
+                        </div>
+                        <button type="submit" class="enviar">Enviar</button>
+                    </form>
                 </div>
-            </nav>
-        </footer>
-        <!-- Finalización del FOOTER -->
-    </main>
-    <!-- Fin del MAIN -->
+            </div>
+        </section>
 
+    </main>
+
+    <!-- ✮⋆˙ FOOTER ✮⋆˙ -->
+    <footer>
+        <nav class="nav-footer">
+            <ul class="lista-nav">
+                <li><a href="#Hola">Hola</a></li>
+                <li><a href="#Conocimientos">Conocimientos</a></li>
+                <li><a href="#Proyectos">Proyectos</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+            <div class="redes-footer">
+                <li><a href="https://www.linkedin.com/in/malena-gerez-diaz/"><i class="fa-brands fa-linkedin"></i>Malena
+                        Gerez Diaz</a>
+                </li>
+                <li><a href="mailto:mgerezdiaz@gmail.com"><i class="fa-solid fa-envelope"></i>mgerezdiaz@gmail.com</a>
+                </li>
+                <li><a href="https://github.com/Malenagdiaz"><i class="fa-brands fa-github-alt"></i>Malenagdiaz</a></li>
+            </div>
+            <p class="copyright">Hecho con 🤍 por Malena</p>
+        </nav>
+    </footer>
 
 </body>
 
