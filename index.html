@@ -44,7 +44,7 @@
         <!-- ✮⋆˙ SECCION CONOCIMIENTOS ✮⋆˙ -->
         <section id="Conocimientos">
             <h2><span><i class="fa-solid fa-laptop-code"></i></span>Mis conocimientos</h2>
-            <div class="container-conocimientos">
+            <div class="contenedor-conocimientos">
                 <div class="conocimientos">
                     <i class=" fa-brands fa-html5"></i>
                     <span>HTML</span>
@@ -93,40 +93,52 @@
             </p>
             <div class="contenedor-proyectos">
                 <div class="proyectos">
-                    <a href="https://malenagdiaz.github.io/Proyecto-Portfolio/" target="_blank">
-                        <img src="./assets/portfolio.png" alt="Mi portfolio">
-                        <p>Mi Portfolio</p>
-                    </a>
+                    <div class="contenido">
+                        <a href="https://malenagdiaz.github.io/Proyecto-Portfolio/" target="_blank">
+                            <img src="./assets/portfolio.png" alt="Mi portfolio">
+                            <p>Mi Portfolio</p>
+                        </a>
+                    </div>
                 </div>
                 <div class="proyectos">
-                    <a href="https://malenagdiaz.github.io/EditorDeMemes-proyecto/">
-                        <img src="./assets/editor_de_memes.png" alt="Editor de memes">
-                        <p>Editor de memes</p>
-                    </a>
+                    <div class="contenido">
+                        <a href="https://malenagdiaz.github.io/EditorDeMemes-proyecto/">
+                            <img src="./assets/editor_de_memes.png" alt="Editor de memes">
+                            <p>Editor de memes</p>
+                        </a>
+                    </div>
                 </div>
                 <div class="proyectos">
-                    <a href="https://malenagdiaz.github.io/Fulbo/">
-                        <img src="./assets/fulbo.png" alt="Fulbo">
-                        <p>Fulbo</p>
-                    </a>
+                    <div class="contenido">
+                        <a href="https://malenagdiaz.github.io/Fulbo/">
+                            <img src="./assets/fulbo.png" alt="Fulbo">
+                            <p>Fulbo</p>
+                        </a>
+                    </div>
                 </div>
                 <div class="proyectos">
-                    <a href="https://randomcardsplayer.netlify.app/">
-                        <img src="./assets/random_cards.png" alt="Random cards">
-                        <p>Random cards</p>
-                    </a>
+                    <div class="contenido">
+                        <a href="https://randomcardsplayer.netlify.app/">
+                            <img src="./assets/random_cards.png" alt="Random cards">
+                            <p>Random cards</p>
+                        </a>
+                    </div>
                 </div>
                 <div class="proyectos">
-                    <a href="#enproceso">
-                        <img src="./assets/todolist.png" alt="Lluvia de tareas">
-                        <p>Lluvia de tareas</p>
-                    </a>
+                    <div class="contenido">
+                        <a href="#enproceso">
+                            <img src="./assets/todolist.png" alt="Lluvia de tareas">
+                            <p>Lluvia de tareas</p>
+                        </a>
+                    </div>
                 </div>
                 <div class="proyectos">
-                    <a href="#enproceso">
-                        <img src="./assets/ecommerce.png" alt="ecommerce">
-                        <p>Ecommerce</p>
-                    </a>
+                    <div class="contenido">
+                        <a href="#enproceso">
+                            <img src="./assets/ecommerce.png" alt="ecommerce">
+                            <p>Ecommerce</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -139,12 +151,12 @@
                     <p>¡Gracias por revisar mi perfil! Si tienes alguna pregunta, sugerencia o simplemente quieres
                         compartir ideas conmigo, no dudes en ponerte en contacto.</p>
                     <ul class="redes">
-                        <li><a href="https://www.linkedin.com/in/malena-gerez-diaz/"><i
+                        <li><a href="https://www.linkedin.com/in/malena-gerez-diaz/" target="_blank"><i
                                     class="fa-brands fa-linkedin"></i>Malena Gerez Diaz</a>
                         </li>
-                        <li><a href="mailto:mgerezdiaz@gmail.com"><i
+                        <li><a href="mailto:mgerezdiaz@gmail.com" target="_blank"><i
                                     class="fa-solid fa-envelope"></i>mgerezdiaz@gmail.com</a></li>
-                        <li><a href="https://github.com/Malenagdiaz"><i
+                        <li><a href="https://github.com/Malenagdiaz" target="_blank"><i
                                     class="fa-brands fa-github-alt"></i>Malenagdiaz</a></li>
                     </ul>
                 </div>
@@ -154,23 +166,25 @@
                         <div class="nombre-apellido">
                             <div>
                                 <label for="nombre">Nombre</label>
-                                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
                             </div>
                             <div>
                                 <label for="apellido">Apellido</label>
-                                <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+                                <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
                             </div>
                         </div>
                         <div class="contenedor-mail">
                             <label for="email">Mail</label>
-                            <input type="email" name="email" id="email" placeholder="nombre@gmail.com">
+                            <input type="email" name="email" id="email" placeholder="nombre@gmail.com" required>
                         </div>
-                        <div>
+                        <div class="contenedor-mensaje">
                             <label for="mensaje">Mensaje</label>
                             <textarea name="mensaje" id="mensaje" cols="30" rows="10"
                                 placeholder="Deje su mansaje aquí"></textarea>
                         </div>
-                        <button type="submit" class="enviar">Enviar</button>
+                        <div class="contenedor-boton">
+                            <button type="submit" class="enviar">Enviar</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -181,7 +195,7 @@
     <!-- ✮⋆˙ FOOTER ✮⋆˙ -->
     <footer>
         <nav class="nav-footer">
-            <ul class="lista-nav">
+            <ul class="lista-nav-footer">
                 <li><a href="#Hola">Hola</a></li>
                 <li><a href="#Conocimientos">Conocimientos</a></li>
                 <li><a href="#Proyectos">Proyectos</a></li>
@@ -190,14 +204,9 @@
             <div class="redes-footer">
                 <ul class="lista-footer">
                     <li><a href="https://www.linkedin.com/in/malena-gerez-diaz/"><i
-                                class="fa-brands fa-linkedin"></i>Malena
-                            Gerez Diaz</a>
-                    </li>
-                    <li><a href="mailto:mgerezdiaz@gmail.com"><i
-                                class="fa-solid fa-envelope"></i>mgerezdiaz@gmail.com</a>
-                    </li>
-                    <li><a href="https://github.com/Malenagdiaz"><i class="fa-brands fa-github-alt"></i>Malenagdiaz</a>
-                    </li>
+                                class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="mailto:mgerezdiaz@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li><a href="https://github.com/Malenagdiaz"><i class="fa-brands fa-github-alt"></i></a></li>
                 </ul>
             </div>
             <p class="copyright">Hecho con 🤍 por Malena</p>
