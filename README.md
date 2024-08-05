@@ -26,6 +26,12 @@ En la sección de **Conocimientos**, muestro las habilidades y tecnologías que 
 
 En la sección de **Proyectos**, presento una serie de trabajos destacados. Aunque la imagen muestra solo tres de ellos, en total hay seis proyectos que puedes explorar. Te invito a visitar esta sección para ver todos mis proyectos y explorar en detalle cada uno de ellos.
 
+### Quote ˗ˏˋ ♡ ˎˊ˗
+
+He incluido una sección especial con una cita que resuena profundamente conmigo. Esta frase refleja el apoyo constante y la fortaleza en momentos difíciles. Elegí esta cita porque me inspiró y sentí que añadía un toque personal y significativo al sitio. Creo que no solo embellece la página, sino que también aporta un mensaje de esperanza y resiliencia.
+
+![Quote](assets/quote.png)
+
 ![Proyectos](assets/proyectos.png)
 
 ### Contacto 💌
